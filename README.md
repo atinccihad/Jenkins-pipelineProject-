@@ -1,10 +1,5 @@
 <h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg"/></h1>
-Jenkins derlemesinden sürekli dağıtma
-Makale
-27.09.2022
-Okumak için 3 dakika
-11 katılımcı
-Azure DevOps Services | Azure DevOps Server 2022 - Azure DevOps Server 2019 | TFS 2018
+
 
 Azure Pipelines, Sürekli Tümleştirme (CI) için Jenkins'i kullanırken Azure'a dağıtan bir Azure Pipelines yayın işlem hattından çeşitli DevOps avantajları elde edebilmeniz için Jenkins ile tümleştirmeyi destekler:
 
