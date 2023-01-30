@@ -1,3 +1,4 @@
+<h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg"/></h1>
 Jenkins derlemesinden sürekli dağıtma
 Makale
 27.09.2022
