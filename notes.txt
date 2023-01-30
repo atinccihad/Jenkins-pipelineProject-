@@ -1,0 +1,4 @@
+Continous integration tool: kodlar sürekli emtegrasyona tabi tutuluyor, farklı zaman dilimlerinde olabilir vs. 3-5 kere kod gönderip kodda hata var mı diye calıstırıyorlae, her hangi 
+bir hata olması durumunda haber veriliyor, slack kanalına entegre ediliyor, branch sahibine mesaj gidiyor. Kodunuzda hata cıkmaıtır gibi hemen düzeltilip tekrar baslıyro. 
+Zaman kaybını önlemek için bu entegresyon, jenkins bunlardan en cok kullanılanı, tamamen kodun calısıp calısmadığını entegre edildiğinde problem cıkarıp cıkarmadığına dair yapı.
+CICD diye özellikle yazarlar, jenkinsde kodlarımı calıstıdım demek avantaj sağlar, advanced konudur.

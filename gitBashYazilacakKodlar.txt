@@ -1,0 +1,32 @@
+GIT BASH YAZILACAK KODLAR
+Update and get ready all tools and packages on Ubantu Server
+1) sudo apt-get update
+2) sudo apt-get upgrade
+INSTALL LATEST CHROME Binary on UBANTU SERVER
+3) sudo apt-get install -y libappindicator1 fonts-liberation
+4) wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+5) sudo dpkg -i google-chrome*.deb
+6) sudo apt-get install -f
+7) sudo dpkg -i google-chrome*.deb
+INSTALL LATEST CHROME DRİVER ON UBANTU SERVER
+8) sudo apt install unzip
+9) wget https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_linux64.zip
+10) unzip chromedriver_linux64.zip
+11) sudo mv chromedriver /usr/bin/chromedriver
+MAIN TOOL INSTALLATIONS
+12) sudo apt-get install default-jdk
+13) sudo apt install maven
+14) sudo apt install git
+JENKINS INSTALATION
+15) wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+16) sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+17) sudo apt-get update
+18) sudo apt-get install jenkins
+Browser’da http://3.139.59.40:8080/	Jenkinse girmiş olduk.
+3.139.59.40 -> Sizin IP adresiniz farklıdır. AWS'te size tanımlanan ip adresini yazın
+Sizden Password isteyecek.
+JENKINS KURULUM İÇİN PASSWORD ALMA
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+Kodunu kullanarak kurulum için gereken password aldık
+"password"
+Pasword'ü ekrana yazarak kurulumu tamamlayın.
